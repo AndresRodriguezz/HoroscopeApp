@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HoroscopeApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="horoscope_fragment_label">Horoscope Fragment</string>
+    <string name="luck_fragment_label">Luck Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- BottomBar -->
+    <string name="horoscope">Horoscope</string>
+    <string name="palmistry">Palmistry</string>
+    <string name="luck">Luck</string>
+
+</resources>
