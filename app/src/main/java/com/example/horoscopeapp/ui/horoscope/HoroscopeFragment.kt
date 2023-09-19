@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import com.example.horoscopeapp.databinding.FragmentHoroscopeBinding
 import com.example.horoscopeapp.ui.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HoroscopeFragment : BaseFragment<FragmentHoroscopeBinding>() {
 
     override val bindingInflater: (LayoutInflater) -> FragmentHoroscopeBinding

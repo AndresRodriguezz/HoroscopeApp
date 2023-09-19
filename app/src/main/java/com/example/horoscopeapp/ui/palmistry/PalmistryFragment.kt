@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import com.example.horoscopeapp.databinding.FragmentPalmistryBinding
 import com.example.horoscopeapp.ui.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PalmistryFragment : BaseFragment<FragmentPalmistryBinding>() {
 
     override val bindingInflater: (LayoutInflater) -> FragmentPalmistryBinding
