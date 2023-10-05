@@ -41,6 +41,8 @@ android {
 }
 
 dependencies {
+    val retrofit_version = "2.9.0"
+    val hilt_vertsion = "2.48"
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
@@ -53,6 +55,10 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     //DaggerHilt
-    implementation("com.google.dagger:hilt-android:2.48")
-    kapt("com.google.dagger:hilt-compiler:2.48")
+    implementation("com.google.dagger:hilt-android:$hilt_vertsion")
+    kapt("com.google.dagger:hilt-compiler:$hilt_vertsion")
+
+    // Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:$retrofit_version")
+    implementation ("com.squareup.retrofit2:converter-gson:$retrofit_version")
 }

@@ -6,10 +6,11 @@
     android:background="@color/primary"
     tools:context=".ui.horoscope.HoroscopeFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHoroscope"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="16dp">
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.recyclerview.widget.RecyclerView>
 </androidx.core.widget.NestedScrollView>

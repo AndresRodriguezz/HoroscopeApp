@@ -10,6 +10,9 @@
         android:name="com.example.horoscopeapp.ui.horoscope.HoroscopeFragment"
         android:label="@string/horoscope_fragment_label"
         tools:layout="@layout/fragment_horoscope">
+        <action
+            android:id="@+id/action_horoscopeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
     </fragment>
     <fragment
         android:id="@+id/luckFragment"
@@ -22,4 +25,9 @@
         android:name="com.example.horoscopeapp.ui.palmistry.PalmistryFragment"
         android:label="fragment_palmistry"
         tools:layout="@layout/fragment_palmistry" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.horoscopeapp.ui.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
 </navigation>
