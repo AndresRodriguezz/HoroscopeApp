@@ -1,4 +1,4 @@
-package com.example.horoscopeapp.ui.Luck
+package com.example.horoscopeapp.ui.luck
 
 import android.os.Bundle
 import android.view.LayoutInflater

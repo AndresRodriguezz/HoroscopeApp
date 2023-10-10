@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/luckFragment"
-        android:name="com.example.horoscopeapp.ui.Luck.LuckFragment"
+        android:name="com.example.horoscopeapp.ui.luck.LuckFragment"
         android:label="@string/luck_fragment_label"
         tools:layout="@layout/fragment_luck">
     </fragment>
@@ -27,7 +27,11 @@
         tools:layout="@layout/fragment_palmistry" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.horoscopeapp.ui.DetailFragment"
+        android:name="com.example.horoscopeapp.ui.detail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="type"
+            app:argType="com.example.horoscopeapp.domain.model.HoroscopeModel" />
+    </fragment>
 </navigation>

@@ -34,9 +34,7 @@
                 android:textSize="30sp"
                 android:textColor="@color/secondary"
                 android:fontFamily="@font/dancing"/>
-
         </androidx.appcompat.widget.Toolbar>
-
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.fragment.app.FragmentContainerView
